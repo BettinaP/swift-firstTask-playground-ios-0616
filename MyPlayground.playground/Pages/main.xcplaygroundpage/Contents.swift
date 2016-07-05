@@ -15,7 +15,8 @@
 ### 1. Create a variable which represents your bank account balance. (For example: What is a good name for this variable that makes it easily readable for myself now and for the future me _or_ other developers I might be working with? Should I declare it using `let` or `var`? Should it be of type `Int` or `String`?)
 */
 // write your code here
-
+var myBankBalance : Int
+myBankBalance = 200
 
 
 
@@ -24,6 +25,8 @@
 */
 // write your code here
 
+let myPuppyName: String = "Bella"
+
 
 
 
@@ -31,7 +34,7 @@
 ### 3. Use the `print()` function to print the name of your new puppy to the console.
 */
 // write your code here
-
+print(myPuppyName)
 
 
 
@@ -40,7 +43,7 @@
 */
 // write your code here
 
-
+print("I just got a new puppy named \(myPuppyName) and she is awesome!")
 
 
 /*: question5
@@ -48,14 +51,15 @@
 */
 // write your code here
 
-
+print("I have $\(myBankBalance) in my bank account.")
 
 
 /*: question6
 ### 6. Congratulations! You just got $100 for your birthday, so now you have $100 more in your bank account. Update your bank account with the new balance and print "I now have $<balance>." to the console.
 */
 // write your code here
-
+myBankBalance += 100
+print("I now have $\(myBankBalance).")
 
 
 
@@ -64,7 +68,10 @@
 */
 // write your code here
 
+//let myPuppyName = "Arya"
+//cannot redeclare constant myPuppyName to a new name because as constant must remain unchanged. Will have to create a new constant or variable that contains new name
 
+var myPuppyNewName = "Arya"
 
 
 //: [Solution](solution)
